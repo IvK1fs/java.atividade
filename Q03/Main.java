@@ -5,12 +5,10 @@ public class Main
 	public static void main(String[] args) {
 	
       Scanner sc = new Scanner(System.in);
-      
-    System.out.println("Digite o primeiro número: ");
+      System.out.println("insira os dois numeros: ");
       int num = sc.nextInt();
-      
-    System.out.println("Digite o segundo número: ");  
       int num2 = sc.nextInt();
+    
       
       if(num %num2 ==0 || num2 %num == 0 ){
           
@@ -23,4 +21,3 @@ public class Main
         sc.close();
     }
 }
-	
