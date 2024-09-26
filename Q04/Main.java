@@ -20,7 +20,7 @@ public class Main
           
       } else {
           calc = 24 - (num2 - num - horaDia) * -1 ;
-          System.out.println("O jogo durou %d horas!",calc);
+          System.out.printf("O jogo durou %d horas!",calc);
       }
         sc.close();
     }
